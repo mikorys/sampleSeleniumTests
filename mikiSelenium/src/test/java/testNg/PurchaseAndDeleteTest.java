@@ -48,7 +48,7 @@ public class PurchaseAndDeleteTest {
   }
   
   @Test(dataProvider = "testData")
-  public void testUno(String clothType, String clothColour, String clothQty, String clothPrice) throws InterruptedException {
+   public void testUno(String clothType, String clothColour, String clothQty, String clothPrice) throws InterruptedException {
 	  
 	  resultPage.enterTextIntoSearchBar(clothType)
 		.clickSearchBtn();	  
@@ -58,7 +58,7 @@ public class PurchaseAndDeleteTest {
 		
 		resultPage.hoverOver(clothPrice)
 				.clickAddToCartBtn(clothPrice);		
-		
+		//////////////Wiem ¿e nie powinno byæ tyle asertow ale robi³em to tak 
 		Assert.assertTrue(resultPage.getProductAddedToCartConfirmationTxt().contains("Product successfully added to your shopping cart"));
 		Assert.assertTrue(resultPage.getClothTypeTxt().contains(clothType));
 		Assert.assertTrue(resultPage.getClothColourTxt().contains(clothColour));

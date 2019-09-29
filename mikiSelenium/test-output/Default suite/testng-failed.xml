@@ -6,7 +6,7 @@
       <class name="testNg.PurchaseAndDeleteTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="testUno"/>
+          <include name="testUno" invocation-numbers="0"/>
           <include name="beforeClass"/>
           <include name="afterMethod"/>
         </methods>

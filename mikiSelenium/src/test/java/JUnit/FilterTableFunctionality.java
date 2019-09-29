@@ -40,6 +40,7 @@ public class FilterTableFunctionality {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get(baseUrl);
+		
 	}
 
 	

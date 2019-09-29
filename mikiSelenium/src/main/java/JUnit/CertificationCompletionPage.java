@@ -33,7 +33,7 @@ public class CertificationCompletionPage {
 	private WebElement table;
 	@FindBy(xpath="//a[contains(text(),\"User's Position Name(s)\")]")
 	private WebElement userPositionsNameHeader;
-	@FindBy(xpath="/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]")
+	@FindBy(xpath="/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]")//I know ABS Xpath is so wrong but  this is reminder to not use that
 	private WebElement saveThisSearchBtn;
 	@FindBy(id="id_submitgroupstandard_clearstandardfilters")
 	private WebElement clearBtn;

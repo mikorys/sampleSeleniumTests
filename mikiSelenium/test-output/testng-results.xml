@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-17T08:47:56Z" name="Default suite" finished-at="2019-07-17T08:49:04Z" duration-ms="68009">
+  <suite started-at="2019-07-26T06:17:18Z" name="Automation Practice" finished-at="2019-07-26T06:18:12Z" duration-ms="54566">
     <groups>
     </groups>
-    <test started-at="2019-07-17T08:47:56Z" name="Default test" finished-at="2019-07-17T08:49:04Z" duration-ms="68009">
+    <test started-at="2019-07-26T06:17:18Z" name="Test" finished-at="2019-07-26T06:18:12Z" duration-ms="54566">
       <class name="testNg.PurchaseAndDeleteTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNg.PurchaseAndDeleteTest@74eb909f]" started-at="2019-07-17T08:47:56Z" name="beforeClass" finished-at="2019-07-17T08:47:56Z" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNg.PurchaseAndDeleteTest@4758820d]" started-at="2019-07-26T06:17:18Z" name="beforeClass" finished-at="2019-07-26T06:17:18Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.PurchaseAndDeleteTest@74eb909f]" started-at="2019-07-17T08:47:56Z" name="beforeMethod" finished-at="2019-07-17T08:48:13Z" duration-ms="16768" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.PurchaseAndDeleteTest@4758820d]" started-at="2019-07-26T06:17:18Z" name="beforeMethod" finished-at="2019-07-26T06:17:33Z" duration-ms="14696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testUno(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.PurchaseAndDeleteTest@74eb909f]" started-at="2019-07-17T08:48:13Z" name="testUno" data-provider="testData" finished-at="2019-07-17T08:48:30Z" duration-ms="17281" status="PASS">
+        <test-method signature="testUno(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.PurchaseAndDeleteTest@4758820d]" started-at="2019-07-26T06:17:33Z" name="testUno" data-provider="testData" finished-at="2019-07-26T06:17:45Z" duration-ms="12273" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUno -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.PurchaseAndDeleteTest@74eb909f]" started-at="2019-07-17T08:48:30Z" name="afterMethod" finished-at="2019-07-17T08:48:30Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.PurchaseAndDeleteTest@4758820d]" started-at="2019-07-26T06:17:45Z" name="afterMethod" finished-at="2019-07-26T06:17:46Z" duration-ms="765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.PurchaseAndDeleteTest@74eb909f]" started-at="2019-07-17T08:48:30Z" name="beforeMethod" finished-at="2019-07-17T08:48:47Z" duration-ms="16600" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNg.PurchaseAndDeleteTest@4758820d]" started-at="2019-07-26T06:17:46Z" name="beforeMethod" finished-at="2019-07-26T06:18:00Z" duration-ms="14454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testUno(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.PurchaseAndDeleteTest@74eb909f]" started-at="2019-07-17T08:48:47Z" name="testUno" data-provider="testData" finished-at="2019-07-17T08:49:04Z" duration-ms="17312" status="PASS">
+        <test-method signature="testUno(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg.PurchaseAndDeleteTest@4758820d]" started-at="2019-07-26T06:18:00Z" name="testUno" data-provider="testData" finished-at="2019-07-26T06:18:12Z" duration-ms="11624" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUno -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.PurchaseAndDeleteTest@74eb909f]" started-at="2019-07-17T08:49:04Z" name="afterMethod" finished-at="2019-07-17T08:49:04Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNg.PurchaseAndDeleteTest@4758820d]" started-at="2019-07-26T06:18:12Z" name="afterMethod" finished-at="2019-07-26T06:18:12Z" duration-ms="715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- testNg.PurchaseAndDeleteTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Automation Practice -->
 </testng-results>
